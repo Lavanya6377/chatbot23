@@ -2,7 +2,7 @@
 
 ## Python Chatbot Project
 
-This Python chatbot project leverages natural language processing (NLP) and deep learning to create a responsive conversational agent. The project comprises three main components:
+This Python chatbot project uses machine learning to create a responsive conversational agent. The project comprises three main components:
 
 1. **`intents.json`**: Defines various user intents such as greetings, farewells, and queries about age, name, programming, and more.
 2. **`training.py`**: Preprocesses the intents data, tokenizes text, and trains a TensorFlow/Keras neural network model for intent classification.
