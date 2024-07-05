@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag" : "greetings",
+      "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going?"],
+      "responses": ["Hello!", "Hey!","What can I do for you?"]
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "age",
+    "patterns": ["how old", "how old is Lavanya", "what is your age","how old are you?", "age?"],
+    "responses": ["My owner Lavanya is 20 years old!", "20 years!"]
+    },
+    {"tag": "name",
+      "patterns": ["what is your name?", "what can i call you?","what's your name?","who are you?","can you tell me your name?"],
+      "responses": ["You can call me yoko!", "I'm yoko!","I'm yoko, Lavanya's assistand"]
+    },
+    {"tag": "shop",
+    "patterns": ["I'd like to buy something","what do you recommend?","what products do you have?","what are you selling"],
+    "responses": ["I sell python book series","python book series"]
+    },
+    {"tag": "hours",
+    "patterns": ["when are you guys open?","what are your hours?","hours of operation"],
+    "responses": ["24*7"]
+    },
+    {"tag": "programming",
+      "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding or software development, means writing computer code to automate tasks."]
+    },
+    {"tag": "resource",
+      "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+      "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1)."]
+    }
+  ]
+  }
